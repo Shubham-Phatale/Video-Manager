@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select to view Category"
+        android:textSize="15sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/logtext"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:id="@+id/cat"
+        android:background="@drawable/button"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select to Watch Videos"
+        android:textSize="15sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/logtext"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:id="@+id/video"
+        android:background="@drawable/button"
+        />
+</LinearLayout>
